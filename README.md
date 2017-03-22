@@ -42,5 +42,6 @@ Correr aplicação
 ================
 
 ```
+cordova build android --verbose
 cordova run android
 ```
