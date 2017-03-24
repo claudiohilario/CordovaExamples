@@ -27,7 +27,17 @@ Adicionar Plugins
 ==================
 
 ```
-cordova plugin add cordova-plugin-camera --save
+cordova plugin add [<plugin>] --save
+```
+Ver Lista de Plugins 
+==================
+```
+cordova plugin list
+```
+Remover Plugin 
+==================
+```
+cordova plugin remove [<plugin_name>]
 ```
 
 Adicionar Plataforma
