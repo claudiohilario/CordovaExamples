@@ -34,14 +34,22 @@ Adicionar Plataforma
 ====================
 
 ```
-cordova platform add android --save
-cordova requirements android    
+cordova platform add [<platform>] --save
+cordova requirements [<platform>]    
+```
+
+Remover Plataforma
+====================
+
+```
+cordova platform remove [<platform>]
+cordova platform rm [<platform>]  
 ```
 
 Correr aplicação
 ================
 
 ```
-cordova build android --verbose
-cordova run android
+cordova build [<platform>] --verbose
+cordova run [<platform>]
 ```
